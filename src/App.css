@@ -1,0 +1,22 @@
+.key {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+.keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  width: fit-content;
+}
+
+#root {
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
